@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color: #092032;
+    line-height: 1.2 !important;
+    margin-bottom: 10px !important;
+}
+
+p{
+    margin-bottom: 16px !important;
+}
+
+section {
+    padding: 90px 0;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500 !important;
+}
+
+img {
+    width: 100%;
+}
+
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+}
+
+/* Top Navigation Bar */
+.top-nav{
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: whitesmoke;
+}
+
+.top-nav i , .top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(245, 245, 245, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+    background-color: whitesmoke;
+    color: #ff4d29;
+}
+
+/* Main Navigation Bar */
+.navbar {
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #ff4d29;
+}
+
+.navbar-brand {
+    font-weight: 700 !important;
+    font-size: 24px;
+    color: #092032;
+}
+
+.navbar-brand span{
+    color: #ff4d29;
+}
+
+/* Btn */
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn-brand{
+    background-color: #ff4d29 !important;
+    color: white !important;
+    border-color: #ff4d29 !important;
+}
+
+.btn-brand:hover{
+    color: white !important;
+    background-color: #e12e0ac7 !important;
+}
+
+/* Slider section */
+.slide1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50, 0.4)), url(/img/slide_portfolio_img02.jpg);
+}
+
+.slide2 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50, 0.4)), url(/img/0.jpg);
+}
+
+.slide3 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4),rgba(9, 32, 50, 0.4)), url(/img/);
+}
+
+/* Owl Carousel */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(245, 245, 245, 0.3) !important;
+    font-size: 12px !important;
+    margin-top: -30px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    border-radius: 100px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background-color: #ff4d29 !important;
+}
+
+.sign{
+    width: 7rem;
+}
+
+/* About section */
+/* .two-col-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+} */
+
+#about h1 {
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+#about .intro_p {
+    color: #ff4d29;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* @media (maz-width: 768px){
+    .two-col-grid{
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+} */
