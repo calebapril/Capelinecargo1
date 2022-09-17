@@ -37,6 +37,21 @@ img {
     background-size: cover;
 }
 
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro h6 {
+    font-weight: 400;
+    color: #ff4d29;
+    margin-top: 20px;
+}
+
+.intro p {
+    max-width: 1500px;
+    margin: auto;
+}
+
 /* Top Navigation Bar */
 .top-nav{
     background-color: #ff4d29;
@@ -170,15 +185,46 @@ img {
     margin-bottom: 24px;
 }
 
-#about .intro_p {
+/* #about  {
     color: #ff4d29;
-    font-weight: 700;
+    font-weight: 400;
     margin-top: 20px;
-}
+} */
 
 /* @media (maz-width: 768px){
     .two-col-grid{
         grid-template-columns: 1fr;
         gap: 24px;
     }
-} */
+}*/ 
+
+
+/* Milestone section */
+#milestone{
+    background: linear-gradient(rgba(255, 77, 41, 0.9),rgba(255, 77, 41, 0.9)), url(/img/anchor-module-image.jpg);
+}
+
+#milestone .display-4,
+#milestone p {
+    color: whitesmoke;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
+
+/* Services Section */
+.service-box {
+    padding: 32px;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.service-box img {
+    width: unset;
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
